@@ -1,0 +1,36 @@
+.button {
+    border: 1px #ffffff solid;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    background: transparent;
+    margin: 30px 5px; 
+}
+
+.button-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  color: white;
+  background: #23b7a4;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.button-message {
+  background: #23b7a4;
+}
+
+.button-message:hover {
+  color: white;
+  background: grey;
+  text-decoration: none;
+}
+

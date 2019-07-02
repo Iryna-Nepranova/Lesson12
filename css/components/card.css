@@ -1,0 +1,199 @@
+.card {  
+  display: block;
+  margin-bottom: 15px;;
+  position: relative;
+}
+
+.card-img {
+  display: block;
+  margin: 0;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-do {
+  display: block;
+  margin: 0;
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+}
+
+.card-header-do {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+} 
+
+.card-lovely{
+  display: block;
+  margin: 0;
+  height: 265px;
+  object-fit: cover; 
+  padding:0; 
+}
+
+.card-header{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.card-header-lovely {
+  position: relative;
+}
+
+.card-cover-lovely {
+  width: 100%;
+  height: 205px;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  right:0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.card:hover .card-header-lovely .card-cover-lovely {
+  display: flex;
+}
+
+.card-body-lovely {
+   background:#292f36;
+   color: #dde1e4;
+   padding: 15px 15px;
+   display: none;
+   position: absolute;
+   bottom: 0px;
+   right:0;
+   left: 0;
+   display: none;   
+}
+
+.card:hover .card-body-lovely {
+  display: block;
+}
+
+.card-cover {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  right:0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-dark {
+  background: #292f36;
+}
+
+.card:hover .card-header .card-cover {
+  display: flex;
+}
+
+.card-body-features {
+  background: transparent;
+}
+
+.card-body {
+  padding: 15px 20px;
+  background: #e1e6ea;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  right:0;
+  left: 0;
+  display: none;
+  background-color: rgba(208,211,211, 0.5);
+  z-index: 0;
+}
+
+.card-overlay-lovely {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  right:0;
+  left: 0;
+  display: none;
+  background-color: rgba(108, 122, 137, 0.7);
+  z-index: 0;
+}
+
+.card:hover .card-overlay {
+  display: block;
+}
+
+.card:hover .card-body {
+  background-color: #3a454d;
+}
+
+.card:hover p.name {
+  color: white;
+  font-weight: lighter;
+}
+
+.card:hover p.position {
+  color: white;
+}
+
+.card:hover .card-overlay-lovely {
+  display: block;
+}
+
+.card-body-do {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.card-title-features {
+  font-size: 18px;
+  color: #8d8f92;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.card-description-features {
+  color: #8d8f92;
+}
+
+.card-description {
+  color: #8d8f92;
+  font-size: 16px;
+  text-align: center;
+}
+
+p.name {
+  font-size: 16px;
+  color: #292f36;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 5px; 
+}
+
+p.position {
+  font-size: 16px;
+  margin: 0;
+  color: #8d8f92;
+}
+
+
+

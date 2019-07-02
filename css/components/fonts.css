@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/icons/icomoon.eot?p1jfht');
+  src:  url('../../fonts/icons/icomoon.eot?p1jfht#iefix') format('embedded-opentype'),
+    url('../../fonts/icons/icomoon.ttf?p1jfht') format('truetype'),
+    url('../../fonts/iconsicomoon.woff?p1jfht') format('woff'),
+    url('../../fonts/icons/icomoon.svg?p1jfht#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-google, .icon-facebook, .icon-twitter, .icon-dribbble, .icon-behance, .icon-skype, .icon-linkedin2 {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-size: 25px;
+  color: white;
+  background: #c8cdd0;
+  margin-right: 2px;
+  padding: 15px;
+  line-height: 1;
+}
+
+.icon-google.bottom, .icon-facebook.bottom, .icon-twitter.bottom, .icon-dribbble.bottom, .icon-behance.bottom, .icon-skype.bottom, .icon-linkedin2.bottom {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-size: 28px;
+  color: white;
+  background: transparent;
+  padding: 15px;
+  line-height: 1;
+}
+
+.icon-google.bottom:hover, .icon-facebook.bottom:hover, .icon-twitter.bottom:hover, .icon-dribbble.bottom:hover, .icon-behance.bottom:hover, .icon-skype.bottom:hover, .icon-linkedin2.bottom:hover {
+  color: grey;
+}
+
+.icon-facebook.cont, .icon-twitter.cont, .icon-linkedin2.cont {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-size: 20px;
+  color: white;
+  background-color: #3a454d;
+  margin-right: 2px;
+  padding: 15px;
+  line-height: 1;
+
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google1:before {
+  content: "\e900";
+}
+
+.icon-google:before {
+  content: "\ea88";
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+
+.icon-behance:before {
+  content: "\eaa8";
+}
+
+.icon-skype:before {
+  content: "\eac5";
+}
+
+.icon-linkedin2:before {
+  content: "\eaca";
+}

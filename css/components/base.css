@@ -1,0 +1,119 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fff;
+  color: #000;
+}
+
+body {  
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.img-map {
+  width: 100%;
+  height: 350px;
+}
+
+
+.logo:hover {
+  background: none;
+}
+
+a, .link {
+  color: #000;
+  text-decoration: none;
+}
+
+a.cont:hover {
+  background: #4e5a62;
+}
+
+a:hover, .link:hover {
+  background: #d0d5d9;
+  text-decoration: none;
+}
+
+a {
+  display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3,* + h4,* + h5,* + h6 {
+  margin:0.67em 0 0 0;
+}
+
+p, ul, ol, figure {
+  margin: 0;
+}
+
+* + p, * + ul, * + ol, * + figure{
+  margin-top: 15px;
+}
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ul,
+ol > li > ol {
+  margin: 0;
+}
+
+h1 {
+  font-weight: lighter;
+  color: white;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+h2 {
+  border-left: 10px #e1e6ea solid;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 36px;  
+  margin: 20px 0 50px 0;
+}
+
+.social-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 2px;
+}
+
+.desc {
+  color: #8d8f92;
+  font-size: 16px;
+}
+
+.plus {
+  width:20px;
+  height: 20px;
+}
+
+hr {
+  height: 1px;
+  color: #dde1e4;
+  margin: 0;
+}

@@ -1,0 +1,9 @@
+.header {
+    background: #1d2126;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
