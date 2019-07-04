@@ -12,6 +12,7 @@ section {
   text-transform: uppercase;
   font-size: 36px;
   color: white;
+  line-height: 1;
 }
 
 .section-subtitle {

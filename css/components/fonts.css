@@ -23,7 +23,7 @@
 .icon-google.bottom, .icon-facebook.bottom, .icon-twitter.bottom, .icon-dribbble.bottom, .icon-behance.bottom, .icon-skype.bottom, .icon-linkedin2.bottom {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  font-size: 28px;
+  font-size: 20px;
   color: white;
   background: transparent;
   padding: 15px;

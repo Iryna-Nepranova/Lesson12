@@ -22,6 +22,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-plus:hover {
+  background-color: transparent;
+
+}
+
 .icon-plus:before {
   content: "\e900";
 }
